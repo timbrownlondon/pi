@@ -7,6 +7,8 @@ import scrollphathd
 from scrollphathd.fonts import font5x7
 
 for line in sys.stdin:
+    
+    scrollphathd.clear()
     scrollphathd.write_string(line.rstrip(), x=17, y=0, font=font5x7, brightness=0.3)
 
     buffer_length = scrollphathd.get_buffer_shape()[0]
