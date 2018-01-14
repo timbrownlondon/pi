@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import time
 import signal
@@ -18,6 +18,5 @@ for line in sys.stdin:
         scrollphathd.scroll()
         time.sleep(0.05)
 
-  
     time.sleep(0.5)
 
